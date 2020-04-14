@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PetSociety</string>
+    <string name="login">LOGIN</string>
+    <string name="to_continue">TO CONTINUE</string>
+    <string name="username">Username</string>
+    <string name="password">password</string>
+    <string name="not_a_member_yet">Not A Member yet? Sign UP!</string>
+    <string name="sign_up">Sign Up!</string>
+</resources>
