@@ -63,6 +63,7 @@
         android:layout_marginTop="30dp"
         android:layout_gravity="center"
         android:textSize="24sp"
-        android:background="#FABEBE"
-        android:textColor="#FFFFFF"/>
+        android:background="@drawable/rounded_button"
+        android:textColor="#FFFFFF"
+        />
 </LinearLayout>
