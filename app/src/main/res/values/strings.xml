@@ -5,5 +5,7 @@
     <string name="username">Username</string>
     <string name="password">password</string>
     <string name="not_a_member_yet">Not A Member yet? Sign UP!</string>
-    <string name="sign_up">Sign Up!</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="using_your_email">Using Your Email</string>
+    <string name="email">Email</string>
 </resources>

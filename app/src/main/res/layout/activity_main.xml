@@ -51,7 +51,6 @@
         android:backgroundTint="#FFFFFF"
         android:textColorHint="#FFFFFF"
         android:inputType="textPassword"
-        android:textStyle="bold"
         />
 
     <Button

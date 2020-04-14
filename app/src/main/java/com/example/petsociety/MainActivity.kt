@@ -1,5 +1,6 @@
 package com.example.petsociety
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -20,6 +21,10 @@ class MainActivity : AppCompatActivity() {
         }
         tv_signup.setOnClickListener {
             Log.d("MainActivity","Try to Show signup")
+            val moveSignUP = Intent(this, singupActivity::class.java)
+            startActivity(moveSignUP)
         }
     }
 }
+
+
