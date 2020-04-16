@@ -28,11 +28,11 @@ class singupActivity : AppCompatActivity(){
     }
 
     private fun signUp(){
-        val username = edittext_username.text.toString()
         val email = edittext_email.text.toString()
-        val password = edittext_email.text.toString()
+        val username = edittext_username.text.toString()
+        val password = edittext_password.text.toString()
 
-        if (username.isEmpty() || email.isEmpty() || password.isEmpty()){
+        if (email.isEmpty() || username.isEmpty() || password.isEmpty()){
             Toast.makeText(this,"Please Enter text",Toast.LENGTH_SHORT).show()
             return
         }

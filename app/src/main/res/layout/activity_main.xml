@@ -30,22 +30,22 @@
         android:layout_marginBottom="30dp"/>
     
     <EditText
-        android:id="@+id/edittext_username"
+        android:id="@+id/edittext_email"
         android:layout_width="261dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tv_continue"
-        android:hint="@string/username"
+        android:hint="@string/email"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
         android:backgroundTint="#FFFFFF"
         android:textColorHint="#FFFFFF"
-        android:inputType="textPersonName"/>
+        android:inputType="textEmailAddress"/>
 
     <EditText
         android:id="@+id/edittext_password"
         android:layout_width="261dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/edittext_username"
+        android:layout_below="@id/edittext_email"
         android:hint="@string/password"
         android:layout_centerHorizontal="true"
         android:backgroundTint="#FFFFFF"

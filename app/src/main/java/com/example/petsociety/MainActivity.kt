@@ -13,10 +13,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btn_login.setOnClickListener {
-            val username = edittext_username.text.toString()
+            val email = edittext_email.text.toString()
             val password = edittext_password.text.toString()
 
-            Log.d("MainActivity", "Username is" +username)
+            Log.d("MainActivity", "Email is" +email)
             Log.d("MainActivity", "Password is" +password)
         }
         tv_signup.setOnClickListener {
