@@ -66,4 +66,18 @@
         android:background="@drawable/rounded_button"
         android:textColor="#FFFFFF"
         />
+
+    <ImageView
+        android:id="@+id/cat"
+        android:layout_width="700dp"
+        android:layout_height="305dp"
+        android:layout_marginStart="-130dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="0dp"
+        android:scr="@drawable/cat"
+        android:visibility="visible"
+        tools:srcCompat="@drawable/cat"
+        tools:visibility="visible" />
+
+
 </LinearLayout>
