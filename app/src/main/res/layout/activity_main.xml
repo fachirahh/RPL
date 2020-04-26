@@ -28,7 +28,7 @@
         android:layout_centerHorizontal="true"
         android:textColor="#FFFFFF"
         android:layout_marginBottom="30dp"/>
-    
+
     <EditText
         android:id="@+id/edittext_email"
         android:layout_width="261dp"
@@ -82,5 +82,24 @@
         android:textSize="14sp"
         />
 
+        <ImageView
+            android:id="@+id/cat"
+            android:layout_width="600dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="-260dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="8dp"
+            android:scr="@drawable/cat"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndof="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartof="parent"
+            app:layout_constraintTop_toTopof="parent"
+            app:srcCompat="@drawable/cat"
+            tools:srcCompat="@drawable/cat"
+            tools:visibility="visible" />
+
+
+        
     </LinearLayout>
 </RelativeLayout>
