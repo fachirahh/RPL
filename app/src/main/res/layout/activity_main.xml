@@ -82,7 +82,7 @@
             android:textSize="14sp" />
 
         <ImageView
-            android:id="@+id/cat"
+            android:id="@+id/home"
             android:layout_width="700dp"
             android:layout_height="305dp"
             android:layout_marginStart="-305dp"
